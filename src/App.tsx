@@ -1,11 +1,11 @@
-import Message from "./components/Message";
+import Users from "./pages/Users";
+import { USERS } from "./utils/data";
+
 
 function App() {
   return (
     <section>
-      <Message firstName="Arfang" lastName="Mane" email="arfang@gmail.com" />
-      <Message firstName="SERGE" lastName="SAM" phone={784329087} />
-      <Message firstName="Lexo" lastName="Massar" />
+      <Users users={USERS} />
     </section>
   );
 }
