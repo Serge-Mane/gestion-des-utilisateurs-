@@ -17,10 +17,10 @@ type Props = {
 function Users(props: Props) {
     const users = props.users;
     return (
-        <section className="grid">
+        <section className="grid md:grid-cols-3 gap-4">
             {users.map((user: User) => (
-                <article className="user">
-                    <h3>
+                <article className="text-xl rounded-lg bg-gray-200 border border-gray-800 p-1.5">
+                    <h3 className="text-2xl">
                         {user.firstName}  {user.lastName}
                     </h3>
                     <p>{user.phone}</p>
