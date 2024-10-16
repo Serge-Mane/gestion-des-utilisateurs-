@@ -6,7 +6,6 @@ const USERS = [
         "firstName": "Lang",
         "lastName": "Ellis",
         "phone": "+1 (929) 577-2642",
-        "email": "langellis@digial.com",
         "address": "533 Abbey Court, Hayes, Palau, 7892",
         "about": "sunt magna dolor commodo est velit tempor sunt tempor sit"
     },
